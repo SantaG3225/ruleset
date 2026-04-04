@@ -1,0 +1,69 @@
+# Malaysia Rule-Set for Surge
+# Strict mode: Service-owned domains preferred
+# Last updated: 2026-04-04
+# Usage: RULE-SET,https://cdn.jsdelivr.net/gh/SantaG3225/surge-rulesets@main/malaysia.list,MALAYSIA
+
+# === ISPs & Telecom ===
+DOMAIN-SUFFIX,tm.com.my
+DOMAIN-SUFFIX,unifi.com.my
+DOMAIN-SUFFIX,maxis.com.my
+DOMAIN-SUFFIX,time.com.my
+DOMAIN-SUFFIX,celcom.com.my
+DOMAIN-SUFFIX,digi.com.my
+DOMAIN-SUFFIX,umobile.com.my
+DOMAIN-SUFFIX,yes.my
+
+# === Domain Registry & Web Services ===
+DOMAIN-SUFFIX,mynic.my
+DOMAIN-SUFFIX,exabytes.my
+DOMAIN-SUFFIX,ipserverone.com
+DOMAIN-SUFFIX,shinjiru.com.my
+
+# === Financial & Banking ===
+DOMAIN-SUFFIX,maybank.com.my
+DOMAIN-SUFFIX,maybank2u.com.my
+DOMAIN-SUFFIX,publicbank.com.my
+DOMAIN-SUFFIX,rhb.com.my
+DOMAIN-SUFFIX,ambank.com.my
+DOMAIN-SUFFIX,bsn.com.my
+DOMAIN-SUFFIX,cimb.com.my
+DOMAIN-SUFFIX,affin.com.my
+
+# === Government & Regulatory ===
+DOMAIN-SUFFIX,mcmc.gov.my
+DOMAIN-SUFFIX,dosm.gov.my
+DOMAIN-SUFFIX,kpt.gov.my
+DOMAIN-SUFFIX,mosti.gov.my
+
+# === E-Commerce & Retail ===
+DOMAIN-SUFFIX,lazada.com.my
+DOMAIN-SUFFIX,shopee.com.my
+DOMAIN-SUFFIX,11street.my
+DOMAIN-SUFFIX,lelong.com.my
+DOMAIN-SUFFIX,carousell.com.my
+
+# === Education ===
+DOMAIN-SUFFIX,upm.edu.my
+DOMAIN-SUFFIX,um.edu.my
+DOMAIN-SUFFIX,usm.my
+DOMAIN-SUFFIX,uum.edu.my
+DOMAIN-SUFFIX,uitm.edu.my
+DOMAIN-SUFFIX,utar.edu.my
+
+# === Media & News ===
+DOMAIN-SUFFIX,theedgemarkets.com
+DOMAIN-SUFFIX,malaymail.com
+DOMAIN-SUFFIX,thestar.com.my
+DOMAIN-SUFFIX,astroawani.com
+DOMAIN-SUFFIX,bernama.my
+
+# === Utilities & Services ===
+DOMAIN-SUFFIX,tnb.com.my
+DOMAIN-SUFFIX,syabas.com.my
+DOMAIN-SUFFIX,pos.com.my
+DOMAIN-SUFFIX,mymfrs.gov.my
+
+# === Social & Local Tech ===
+DOMAIN-SUFFIX,airasia.com
+DOMAIN-SUFFIX,petaling.net
+DOMAIN-SUFFIX,lowyat.net
