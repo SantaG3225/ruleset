@@ -1,2 +1,2 @@
 # surge-rulesets
-Surge rule-sets for proxy configurations
+Surge rule-sets
