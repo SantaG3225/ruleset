@@ -1,83 +1,83 @@
-# Surge 规则集 (surge-rulesets)
+# Surge Rule-Sets
 
-## 🚀 项目简介
+## 🚀 Project Overview
 
-`surge-rulesets` 是一个精心维护的 Surge 代理工具规则集仓库，旨在为用户提供高效、稳定且功能丰富的网络代理配置。本规则集涵盖了广告屏蔽、特定国家/地区服务优化、隐私保护等多个方面，帮助用户更好地管理网络流量，提升上网体验。
+`surge-rulesets` is a meticulously maintained collection of rule-sets for the Surge proxy tool. It aims to provide users with efficient, stable, and feature-rich network proxy configurations. This repository covers various aspects such as ad blocking, optimization for specific country/region services, and privacy protection, helping users better manage network traffic and enhance their online experience.
 
-## ✨ 主要特性
+## ✨ Key Features
 
-*   **广告与追踪屏蔽**：有效拦截各类广告、恶意追踪器和潜在的恶意域名，提供更纯净的浏览环境。
-*   **服务优化**：针对特定应用和服务（如 Apple 服务、Microsoft 服务）进行优化，确保其稳定运行和最佳性能。
-*   **地域路由**：提供针对不同国家/地区的流量分流规则，例如 `china.list` 用于回国加速，`us.list` 用于访问美国服务。
-*   **易于集成**：规则文件设计简洁，可轻松导入到 Surge 等兼容代理工具中。
-*   **持续更新**：规则集会定期进行维护和更新，以适应不断变化的网络环境和应用需求。
+*   **Ad and Tracker Blocking**: Effectively blocks various advertisements, malicious trackers, and potentially harmful domains, offering a cleaner browsing environment.
+*   **Service Optimization**: Optimized for specific applications and services (e.g., Apple services, Microsoft services) to ensure stable operation and optimal performance.
+*   **Geo-Routing**: Provides traffic splitting rules for different countries/regions, such as `china.list` for accelerating access to Chinese services and `us.list` for accessing US services.
+*   **Easy Integration**: Rule files are designed to be simple and can be easily imported into Surge and other compatible proxy tools.
+*   **Continuous Updates**: The rule-sets are regularly maintained and updated to adapt to the ever-changing network environment and application requirements.
 
-## 📦 规则文件列表
+## 📦 Rule File List
 
-本仓库包含以下主要规则文件：
+This repository includes the following main rule files:
 
-| 文件名           | 描述                                     | 目的                                       |
-| :--------------- | :--------------------------------------- | :----------------------------------------- |
-| `adblock.list`   | 广告屏蔽规则                             | 拦截广告、追踪器和恶意域名                 |
-| `apple.list`     | Apple 服务优化规则                       | 确保 Apple 官方服务、iCloud、App Store 正常运行 |
-| `bytedance.list` | 字节跳动服务优化规则                     | 优化抖音、TikTok 等字节跳动系应用访问      |
-| `china.list`     | 中国大陆服务直连规则                     | 优化回国访问，确保中国大陆服务流量直连     |
-| `malaysia.list`  | 马来西亚服务优化规则                     | 优化马来西亚地区网络服务访问               |
-| `microsoft.list` | 微软服务优化规则                         | 确保 Microsoft 官方服务、Office 365 正常运行 |
-| `porn.list`      | 成人内容屏蔽规则                         | 屏蔽成人网站和相关内容                     |
-| `us.list`        | 美国服务优化规则                         | 优化美国地区网络服务访问                   |
-| `BackCN.conf`    | 综合回国配置 (Surge 配置)                | 针对回国访问的完整 Surge 配置文件          |
+| Filename           | Description                                     | Purpose                                       |
+| :--------------- | :---------------------------------------------- | :-------------------------------------------- |
+| `adblock.list`   | Ad blocking rules                               | Blocks ads, trackers, and malicious domains    |
+| `apple.list`     | Apple services optimization rules               | Ensures normal operation of Apple official services, iCloud, App Store |
+| `bytedance.list` | ByteDance services optimization rules           | Optimizes access to ByteDance apps like Douyin, TikTok |
+| `china.list`     | China mainland services direct connection rules | Optimizes access to China, ensuring direct traffic for mainland services |
+| `malaysia.list`  | Malaysia services optimization rules            | Optimizes network service access for the Malaysia region |
+| `microsoft.list` | Microsoft services optimization rules           | Ensures normal operation of Microsoft official services, Office 365 |
+| `porn.list`      | Adult content blocking rules                    | Blocks adult websites and related content     |
+| `us.list`        | US services optimization rules                  | Optimizes network service access for the US region |
+| `BackCN.conf`    | Comprehensive China-access configuration (Surge Config) | Complete Surge configuration for accessing Chinese services |
 
-## 🛠️ 如何使用
+## 🛠️ How to Use
 
-### 1. 导入规则集
+### 1. Import Rule-Sets
 
-您可以选择导入单个规则文件，或将 `BackCN.conf` 导入 Surge 作为完整配置。
+You can choose to import individual rule files or import `BackCN.conf` into Surge as a complete configuration.
 
-**方法一：导入单个规则文件 (推荐)**
+**Method One: Import Individual Rule Files (Recommended)**
 
-在您的 Surge 配置中，可以通过 `RULE-SET` 语法引用本仓库的规则文件。例如，要导入 `adblock.list`，请在您的 `[Rule]` 部分添加：
+In your Surge configuration, you can reference the rule files from this repository using the `RULE-SET` syntax. For example, to import `adblock.list`, add the following to your `[Rule]` section:
 
 ```ini
 RULE-SET,https://cdn.jsdelivr.net/gh/SantaG3225/surge-rulesets@main/adblock.list,REJECT
 ```
 
-请将 `adblock.list` 替换为您希望导入的其他规则文件名，并根据需要调整策略（例如 `DIRECT`, `PROXY`, `REJECT`）。
+Please replace `adblock.list` with the name of the rule file you wish to import, and adjust the policy (e.g., `DIRECT`, `PROXY`, `REJECT`) as needed.
 
-**方法二：导入 `BackCN.conf` (完整配置)**
+**Method Two: Import `BackCN.conf` (Complete Configuration)**
 
-`BackCN.conf` 是一个完整的 Surge 配置文件，包含了回国访问所需的全部规则和配置。您可以直接将其作为您的 Surge 配置导入。
+`BackCN.conf` is a complete Surge configuration file that includes all necessary rules and configurations for accessing Chinese services. You can directly import it as your Surge configuration.
 
-1.  复制 `BackCN.conf` 的原始链接：`https://cdn.jsdelivr.net/gh/SantaG3225/surge-rulesets@main/BackCN.conf`
-2.  在 Surge 应用中，选择“配置” -> “从 URL 下载配置”，然后粘贴上述链接并导入。
+1.  Copy the raw link for `BackCN.conf`: `https://cdn.jsdelivr.net/gh/SantaG3225/surge-rulesets@main/BackCN.conf`
+2.  In the Surge application, go to "Configuration" -> "Download Configuration from URL", then paste the link and import.
 
-### 2. 更新规则集
+### 2. Update Rule-Sets
 
-为了确保规则集的时效性，建议您定期更新。如果您通过 URL 导入规则集，Surge 通常会自动检查更新。您也可以手动在 Surge 应用中触发更新。
+To ensure the timeliness of the rule-sets, it is recommended to update them regularly. If you import rule-sets via URL, Surge usually checks for updates automatically. You can also manually trigger updates within the Surge application.
 
-## 🤝 贡献
+## 🤝 Contribution
 
-我们欢迎社区成员对本规则集进行贡献！如果您发现任何规则失效、有新的规则建议，或者希望改进现有规则，请通过以下方式参与：
+We welcome contributions from community members to this rule-set! If you find any rules are invalid, have new rule suggestions, or wish to improve existing rules, please participate through the following methods:
 
-1.  **提交 Issue**：报告问题或提出建议。
-2.  **提交 Pull Request**：直接修改规则文件并提交。
+1.  **Submit an Issue**: Report problems or suggest improvements.
+2.  **Submit a Pull Request**: Directly modify rule files and submit them.
 
-在提交 Pull Request 之前，请确保您的修改符合现有规则格式，并附上简要说明。
+Before submitting a Pull Request, please ensure your changes conform to the existing rule format and include a brief description.
 
-## 📜 许可证
+## 📜 License
 
-本仓库的所有规则集均采用 [MIT 许可证](https://github.com/SantaG3225/surge-rulesets/blob/main/LICENSE) 开源。这意味着您可以自由使用、修改和分发本规则集，但需保留版权声明。
+All rule-sets in this repository are open-sourced under the [MIT License](https://github.com/SantaG3225/surge-rulesets/blob/main/LICENSE). This means you are free to use, modify, and distribute these rule-sets, provided that the copyright notice is retained.
 
-## ⭐ Star 历史
+## ⭐ Star History
 
 [![Stargazers over time](https://starchart.cc/SantaG3225/surge-rulesets.svg)](https://starchart.cc/SantaG3225/surge-rulesets)
 
-## 📅 更新日志
+## 📅 Changelog
 
-*   **2026-04-11**：新增详细 README.md 文档，增加 MIT 许可证。
-*   **2026-04-04**：首次发布，包含基础规则集。
+*   **2026-04-11**: Added detailed README.md documentation, added MIT License.
+*   **2026-04-04**: Initial release, including basic rule-sets.
 
 ---
 
-**作者**：Manus AI
-**日期**：2026年4月11日
+**Author**: Manus AI
+**Date**: April 11, 2026
