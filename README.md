@@ -79,5 +79,5 @@ All rule-sets in this repository are open-sourced under the [MIT License](https:
 
 ---
 
-**Author**: Manus AI
+**Author**: SantaG3225
 **Date**: April 11, 2026
