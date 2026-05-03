@@ -1,0 +1,134 @@
+# China.list (Heavy/Full Version)
+# Description: Comprehensive collection of Chinese domains for direct connection.
+# Updated: 2026-05-03
+
+# --- Top Level Domains ---
+DOMAIN-SUFFIX,cn
+DOMAIN-SUFFIX,xn--fiqs8s
+DOMAIN-SUFFIX,xn--fiqz9s
+
+# --- Infrastructure & CDN ---
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,aliimg.com
+DOMAIN-SUFFIX,alipayobjects.com
+DOMAIN-SUFFIX,bdstatic.com
+DOMAIN-SUFFIX,baidustatic.com
+DOMAIN-SUFFIX,gtimg.cn
+DOMAIN-SUFFIX,gtimg.com
+DOMAIN-SUFFIX,qlogo.cn
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,qhres.com
+DOMAIN-SUFFIX,qhimg.com
+DOMAIN-SUFFIX,msstatic.com
+DOMAIN-SUFFIX,dnsv1.com
+DOMAIN-SUFFIX,sandai.net
+
+# --- Social & Communication ---
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,wechatpay.com
+DOMAIN-SUFFIX,imtt.qq.com
+DOMAIN-SUFFIX,weibo.com
+DOMAIN-SUFFIX,weibo.cn
+DOMAIN-SUFFIX,sinaimg.cn
+DOMAIN-SUFFIX,sina.com.cn
+DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,xhsimg.com
+DOMAIN-SUFFIX,zhihu.com
+DOMAIN-SUFFIX,zhimg.com
+DOMAIN-SUFFIX,douban.com
+DOMAIN-SUFFIX,doubanio.com
+
+# --- E-Commerce & Finance ---
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,alibaba.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,360buyimg.com
+DOMAIN-SUFFIX,pinduoduo.com
+DOMAIN-SUFFIX,yangkeduo.com
+DOMAIN-SUFFIX,meituan.com
+DOMAIN-SUFFIX,meituan.net
+DOMAIN-SUFFIX,dianping.com
+DOMAIN-SUFFIX,ele.me
+DOMAIN-SUFFIX,suning.com
+DOMAIN-SUFFIX,vip.com
+DOMAIN-SUFFIX,kaola.com
+
+# --- Banking & Payment ---
+DOMAIN-SUFFIX,unionpay.com
+DOMAIN-SUFFIX,95516.com
+DOMAIN-SUFFIX,icbc.com.cn
+DOMAIN-SUFFIX,ccb.com
+DOMAIN-SUFFIX,abchina.com
+DOMAIN-SUFFIX,boc.cn
+DOMAIN-SUFFIX,bankcomm.com
+DOMAIN-SUFFIX,cmbchina.com
+DOMAIN-SUFFIX,cebbank.com
+DOMAIN-SUFFIX,spdb.com.cn
+DOMAIN-SUFFIX,cib.com.cn
+DOMAIN-SUFFIX,pingan.com
+
+# --- Video & Entertainment ---
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,hdslb.com
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,qy.net
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,mgtv.com
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,douyincdn.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,kuaishou.com
+DOMAIN-SUFFIX,yximgs.com
+DOMAIN-SUFFIX,taptap.com
+
+# --- Music & Audio ---
+DOMAIN-SUFFIX,netease.com
+DOMAIN-SUFFIX,126.net
+DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,music.126.net
+DOMAIN-SUFFIX,kugou.com
+DOMAIN-SUFFIX,kuwo.cn
+DOMAIN-SUFFIX,ximalaya.com
+DOMAIN-SUFFIX,xmcdn.com
+
+# --- Smartphone OEM & Cloud ---
+DOMAIN-SUFFIX,xiaomi.com
+DOMAIN-SUFFIX,mi-img.com
+DOMAIN-SUFFIX,miui.com
+DOMAIN-SUFFIX,duokan.com
+DOMAIN-SUFFIX,huawei.com
+DOMAIN-SUFFIX,dbankcdn.com
+DOMAIN-SUFFIX,vmallres.com
+DOMAIN-SUFFIX,oppo.com
+DOMAIN-SUFFIX,oppomobile.com
+DOMAIN-SUFFIX,vivo.com
+DOMAIN-SUFFIX,vivoglobal.com
+DOMAIN-SUFFIX,aliyun.com
+DOMAIN-SUFFIX,myqcloud.com
+DOMAIN-SUFFIX,ucloud.cn
+
+# --- AI & Future Tech ---
+DOMAIN-SUFFIX,deepseek.com
+DOMAIN-SUFFIX,moonshot.cn
+DOMAIN-SUFFIX,baichuan-ai.com
+DOMAIN-SUFFIX,zhipuai.cn
+DOMAIN-SUFFIX,baichuan-ai.com
+DOMAIN-SUFFIX,sensetime.com
+
+# --- Search & Tools ---
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,sogou.com
+DOMAIN-SUFFIX,sogoucdn.com
+DOMAIN-SUFFIX,so.com
+DOMAIN-SUFFIX,amap.com
+DOMAIN-SUFFIX,autonavi.com
+DOMAIN-SUFFIX,12306.cn
+DOMAIN-SUFFIX,ctrip.com
+DOMAIN-SUFFIX,qunar.com
