@@ -1,0 +1,28 @@
+# Apple-direct.list
+# Description: Apple services that should be accessed directly for better performance in China.
+
+# Apple Software Update
+DOMAIN-SUFFIX,swcdn.apple.com
+DOMAIN-SUFFIX,succubus.apple.com
+DOMAIN-SUFFIX,swdist.apple.com
+DOMAIN-SUFFIX,swdownload.apple.com
+DOMAIN-SUFFIX,swscan.apple.com
+
+# Apple Maps and Weather
+DOMAIN-SUFFIX,ls.apple.com
+DOMAIN-SUFFIX,gs-pe.apple.com
+DOMAIN-SUFFIX,weather-adams.apple.com
+DOMAIN-SUFFIX,weather-edge.apple.com
+
+# Apple Pay and Wallet
+DOMAIN-SUFFIX,apple-pay.apple.com
+DOMAIN-SUFFIX,wallet.apple.com
+
+# App Store & Music (China CDN)
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,apple.com.cn
+
+# iCloud & Push (Critical for stability)
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,push.apple.com
