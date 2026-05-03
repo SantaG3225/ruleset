@@ -1,0 +1,26 @@
+# Apple-proxy.list
+# Description: Apple services that may require proxying for regional content or stability.
+
+# Apple TV+ and Media Streaming
+DOMAIN-SUFFIX,tv.apple.com
+DOMAIN-SUFFIX,hls.itunes.apple.com
+DOMAIN-SUFFIX,hls-amt.itunes.apple.com
+DOMAIN-SUFFIX,play-edge.itunes.apple.com
+
+# Apple News and Stocks
+DOMAIN-SUFFIX,apple.news
+DOMAIN-SUFFIX,news-client.apple.com
+DOMAIN-SUFFIX,news-edge.apple.com
+DOMAIN-SUFFIX,stocks-sparkline.apple.com
+
+# Apple Intelligence (Siri & AI Services)
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,seed-menu.apple.com
+DOMAIN-SUFFIX,api.apple-cloudkit.com
+
+# iMessage & FaceTime (Optional proxying for connectivity)
+DOMAIN-SUFFIX,imessage.apple.com
+DOMAIN-SUFFIX,ess.apple.com
+
+# Others
+DOMAIN-SUFFIX,apple-dns.net
