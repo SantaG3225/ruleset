@@ -1,0 +1,47 @@
+# LocalAreaNetwork.list
+# Description: Local Area Network and Private IP Ranges for Direct Connection.
+# Updated: 2026-05-03
+
+# --- Private IP Address Ranges (IPv4) ---
+# RFC1918 Standard
+IP-CIDR,10.0.0.0/8,no-resolve
+IP-CIDR,172.16.0.0/12,no-resolve
+IP-CIDR,192.168.0.0/16,no-resolve
+# Loopback and Carrier-Grade NAT
+IP-CIDR,127.0.0.0/8,no-resolve
+IP-CIDR,100.64.0.0/10,no-resolve
+# Link-Local
+IP-CIDR,169.254.0.0/16,no-resolve
+
+# --- Private IP Address Ranges (IPv6) ---
+IP-CIDR6,::1/128,no-resolve
+IP-CIDR6,fc00::/7,no-resolve
+IP-CIDR6,fe80::/10,no-resolve
+IP-CIDR6,fd00::/8,no-resolve
+
+# --- Local Domain Suffixes ---
+DOMAIN-SUFFIX,local
+DOMAIN-SUFFIX,localhost
+DOMAIN-SUFFIX,lan
+DOMAIN-SUFFIX,home.arpa
+
+# --- Router & Hardware Management ---
+# ASUS
+DOMAIN-SUFFIX,router.asus.com
+# TP-Link
+DOMAIN-SUFFIX,tplinkwifi.net
+DOMAIN-SUFFIX,tplinkrepeater.net
+DOMAIN-SUFFIX,tplinkmodem.net
+# Xiaomi
+DOMAIN-SUFFIX,miwifi.com
+# Tenda / Mercury
+DOMAIN-SUFFIX,tendawifi.com
+DOMAIN-SUFFIX,mercurywifi.com
+# Phicomm
+DOMAIN-SUFFIX,phicomm.me
+
+# --- NAS & Home Server Dashboards ---
+DOMAIN-SUFFIX,quickconnect.to
+DOMAIN-SUFFIX,synology.me
+DOMAIN-SUFFIX,myqnapcloud.com
+DOMAIN-SUFFIX,plex.direct
