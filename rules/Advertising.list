@@ -1,0 +1,73 @@
+# Advertising.list
+# Description: Comprehensive rules for blocking advertisements, tracking, and analytics.
+# Updated: 2026-05-03
+
+# --- Global Tracking & Analytics ---
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,analytics.google.com
+DOMAIN-SUFFIX,ads.google.com
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,scorecardresearch.com
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,amplitude.com
+DOMAIN-SUFFIX,mixpanel.com
+
+# --- China Ad & Tracking Networks ---
+# Tencent
+DOMAIN-SUFFIX,ad.qq.com
+DOMAIN-SUFFIX,e.qq.com
+DOMAIN-SUFFIX,gdt.qq.com
+DOMAIN-SUFFIX,l.qq.com
+# ByteDance (Douyin/Toutiao)
+DOMAIN-SUFFIX,ad.toutiao.com
+DOMAIN-SUFFIX,ad.zijieapi.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+DOMAIN-SUFFIX,pangolin.snssdk.com
+# Alibaba
+DOMAIN-SUFFIX,adash.m.taobao.com
+DOMAIN-SUFFIX,adash.man.alibaba.com
+DOMAIN-SUFFIX,ut.taobao.com
+DOMAIN-SUFFIX,alilog.jc.taobao.com
+# Baidu
+DOMAIN-SUFFIX,ad.baidu.com
+DOMAIN-SUFFIX,pos.baidu.com
+DOMAIN-SUFFIX,hm.baidu.com
+# Sina
+DOMAIN-SUFFIX,sax.sina.com.cn
+DOMAIN-SUFFIX,beacon.sina.com.cn
+
+# --- Social Media Ads ---
+DOMAIN-SUFFIX,ads.facebook.com
+DOMAIN-SUFFIX,an.facebook.com
+DOMAIN-SUFFIX,ads-twitter.com
+DOMAIN-SUFFIX,ads.linkedin.com
+
+# --- Mobile OEM Ad Services ---
+DOMAIN-SUFFIX,ad.mi.com
+DOMAIN-SUFFIX,ad.xiaomi.com
+DOMAIN-SUFFIX,adv.sec.intl.xiaomi.com
+DOMAIN-SUFFIX,ads.oppymobile.com
+DOMAIN-SUFFIX,ads.vivo.com.cn
+
+# --- Common Ad-serving Domains ---
+DOMAIN-SUFFIX,adform.net
+DOMAIN-SUFFIX,admob.com
+DOMAIN-SUFFIX,ads-api.twitter.com
+DOMAIN-SUFFIX,advertising.com
+DOMAIN-SUFFIX,amazon-adsystem.com
+DOMAIN-SUFFIX,applovin.com
+DOMAIN-SUFFIX,applvn.com
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,ironsrc.net
+DOMAIN-SUFFIX,unityads.unity3d.com
+
+# --- IP-CIDR Blocking (Malicious/Ad Servers) ---
+# Common ad networks specific IP ranges
+IP-CIDR,203.107.1.1/24,REJECT,no-resolve
+IP-CIDR,117.34.14.0/24,REJECT,no-resolve
+IP-CIDR,101.227.131.0/24,REJECT,no-resolve
+IP-CIDR,101.227.200.0/24,REJECT,no-resolve
+IP-CIDR,120.132.63.203/32,REJECT,no-resolve
+IP-CIDR,14.215.177.38/32,REJECT,no-resolve
